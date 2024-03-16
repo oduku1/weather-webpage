@@ -1,0 +1,123 @@
+*{
+margin:0;
+padding: 0; 
+font-family: "Poppins",sans-serif;
+box-sizing: border-box;
+color:  white;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #598394e6, #07396a);
+
+
+    
+}
+
+.container{
+    background: linear-gradient(135deg, #460078, #00003e);
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px
+}
+
+.search-box{
+    position: relative;
+    background-color: rgba(212, 227, 234, 0.588);
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+.search-box input{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    background: transparent;
+    border: 2px none rgb(218, 102, 102);
+    font-weight: 500;
+    text-transform: Uppercase; 
+    padding: 0 42px 0 42px; 
+}
+
+.search-box  input::placeholder{
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.search-box button{
+    width:  20px;
+    height: 50%;
+    padding: 0px 100px 0px 300px;
+    right: 0;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+.weather-box{ 
+    background-color: #453a7d78;
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.weather-box img{
+    margin-top: 20px;
+    width: 175px;
+}
+
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+
+}
+.weather-box .description{
+    position: relative;
+    font-size: 25px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.row{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 20px; 
+    margin-left: 20px;
+    font-size: 12px;
+    
+}
+.col img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.extra{
+margin-bottom: 3px;
+margin-top:10px
+}
